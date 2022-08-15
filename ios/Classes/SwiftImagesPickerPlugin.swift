@@ -496,7 +496,7 @@ public class SwiftImagesPickerPlugin: NSObject, FlutterPlugin {
   }
   
   private func setThemeColor(configuration: ZLPhotoConfiguration, colors: NSDictionary?) {
-    let theme = ZLPhotoThemeColorDeploy();
+    let _theme = ZLPhotoThemeColorDeploy();
 //    configuration.themeColorDeploy = theme;
   }
 }
